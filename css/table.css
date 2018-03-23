@@ -1,0 +1,85 @@
+.glyphicon-ok {
+    color: green;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.glyphicon-remove {
+	color: red;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#rates {
+	width: 100%;
+	font-size: 12px;
+	color: #428bca;
+}
+
+#rates .row > div {
+	display: table;
+	padding: 0 4px;
+	border-right: 1px solid #428bca;
+	border-bottom: 1px solid #428bca;
+	text-align: center;
+}
+
+#rates .row > div .item {
+	height: 110px;
+	width: 100%;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#rates .row > div:first-child {
+	border-left: 1px solid #428bca;
+	text-align: left;
+}
+
+#rates .row.head > div {
+	border-right: none;
+	height: 100px;
+}
+
+#rates .row.head > div:first-child {
+	border-left: none;
+}
+
+#rates .row.head span {
+	display: block;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#rates .row.head .form-btn {
+	display: block;
+}
+
+#rates .row.head .form-btn a {
+	display: inline-block;
+	margin-top: 14px;
+	padding: 0 6px;
+	border: 1px solid #428bca;
+	border-radius: 10px;
+}
+
+@media (min-width: 768px) {
+	#rates {
+		font-size: 16px;
+	}
+	#rates .row > div {
+		padding: 0 15px;
+	}
+	#rates .row > div .item {
+		height: 80px;
+	}
+	#rates .row.head > div {
+		height: 90px;
+	}
+	#rates .row.head span {
+		font-size: 20px;
+	}
+	#rates .row.head .form-btn a {
+		padding: 0 10px;
+	}
+}
